@@ -1,0 +1,1 @@
+import type{MetadataRoute}from"next";export default function manifest():MetadataRoute.Manifest{return{name:"GhanaDataset Registry",short_name:"GhanaDataset",description:"Provenance-first catalogue of official Ghana data access paths.",start_url:"/",display:"standalone",background_color:"#f4efe3",theme_color:"#1d1b18",icons:[{src:"/icon.svg",sizes:"any",type:"image/svg+xml"}]}}

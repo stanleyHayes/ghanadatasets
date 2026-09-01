@@ -1,6 +1,6 @@
 # GhanaDataset Registry
 
-`GhanaDataset Registry` is an independent Digital Ghana public-infrastructure product. Its canonical public home is `https://datasets.digitalghana.dev` after production evidence supports a lifecycle transition.
+`GhanaDataset Registry` is an independent, metadata-only Digital Ghana discovery product. Its beta indexes official access paths, publishers, licence/access conditions and link status without copying source data. Canonical web/API surfaces remain pre-release until production evidence supports a lifecycle transition.
 
 ## Before implementation
 
@@ -11,4 +11,4 @@
 
 ## Verification
 
-Run `ruby scripts/validate.rb`. Product-specific checks are added to the same quality workflow as implementation lands.
+Run `pnpm install` and `pnpm check` for governance validation, Go tests/vet, metadata invariants, TypeScript checks and the production web build.

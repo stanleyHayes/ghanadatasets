@@ -1,5 +1,7 @@
-# Contracts
+# GhanaDataset public contracts
 
-Place versioned public contracts here only after the product definition gate passes. CI must lint committed contracts, detect generated-artifact drift, exercise representative fixtures, and reject breaking changes against the default branch.
+- `openapi.yaml` defines the metadata-only REST surface.
+- `graphql/schema.graphql` defines the constrained read-only query.
+- `../sdk/typescript/index.ts` is the dependency-free client.
 
-Do not invent REST, GraphQL, event, or SDK parity merely to satisfy a template. Choose interfaces from demonstrated consumers and document the decision.
+The API returns catalogue metadata and official links; it does not proxy or redistribute source data.

@@ -1,0 +1,3 @@
+type Distribution { format: String!, accessUrl: String! }
+type DatasetRecord { id: ID!, title: String!, publisher: String!, topic: String!, description: String!, licence: String!, accessCondition: String!, sourceId: ID!, checkedAt: String!, status: String!, statusNote: String, distributions: [Distribution!]! }
+type Query { datasets(q: String, topic: String): [DatasetRecord!]! }

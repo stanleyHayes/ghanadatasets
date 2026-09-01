@@ -2,15 +2,9 @@
   "$schema": "./source-register.schema.json",
   "product": "ghanadatasets",
   "sources": [
-    {
-      "id": "definition-required",
-      "authority": null,
-      "title": "Replace after source review",
-      "url": null,
-      "licence": "unknown",
-      "publicationDecision": "blocked",
-      "reviewedAt": null,
-      "notes": "Unknown licence blocks canonical publication."
-    }
+    {"id":"gss-statsbank","authority":"Ghana Statistical Service","title":"GSS StatsBank and PxWeb API","url":"https://statsbank.statsghana.gov.gh/pxweb/en/","licence":"Source-specific terms; catalogue metadata and access paths only","publicationDecision":"metadata-link-only","reviewedAt":"2026-09-01","notes":"Official aggregated-data platform. Beta indexes database-level discovery records and does not copy tables."},
+    {"id":"gss-microdata","authority":"Ghana Statistical Service","title":"GSS Microdata Catalog","url":"https://microdata.statsghana.gov.gh/index.php/catalog/central","licence":"Per-study access conditions; metadata link only","publicationDecision":"metadata-link-only","reviewedAt":"2026-09-01","notes":"Study licences vary. The registry links to source access conditions and never mirrors microdata."},
+    {"id":"ghana-open-data","authority":"Ghana Open Data Initiative / NITA","title":"Ghana Open Data Portal","url":"https://data.gov.gh/","licence":"Per-record metadata; portal policy generally uses ODC Attribution with exceptions","publicationDecision":"metadata-link-only","reviewedAt":"2026-09-01","notes":"Portal terms require checking each record and source attribution. Beta links catalogue/collection pages without copying resources."},
+    {"id":"portfolio-brief","authority":"Digital Ghana project owner","title":"Ghana Digital Public Infrastructure Project Portfolio","url":null,"licence":"Project input supplied by owner","publicationDecision":"approved-for-requirements","reviewedAt":"2026-09-01","notes":"Defines catalogue, publisher, licence, access-path, format, health and provenance requirements."}
   ]
 }

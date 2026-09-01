@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ghanadatasets-api
+    runtime: go
+    plan: free
+    region: frankfurt
+    buildCommand: go build -trimpath -o bin/ghanadatasets-api ./cmd/api
+    startCommand: ./bin/ghanadatasets-api
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: ALLOWED_ORIGIN
+        value: https://datasets.digitalghana.dev
