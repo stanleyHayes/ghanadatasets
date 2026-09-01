@@ -6,3 +6,4 @@ bin/
 .env*
 !.env.example
 .DS_Store
+.vercel
