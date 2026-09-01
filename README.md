@@ -1,6 +1,9 @@
 # GhanaDataset Registry
 
-`GhanaDataset Registry` is an independent, metadata-only Digital Ghana discovery product. Its beta indexes official access paths, publishers, licence/access conditions and link status without copying source data. Canonical web/API surfaces remain pre-release until production evidence supports a lifecycle transition.
+`GhanaDataset Registry` is an independent, metadata-only Digital Ghana discovery product. Its beta indexes official access paths, publishers, licence/access conditions and link status without copying source data.
+
+- Web: <https://datasets.digitalghana.dev>
+- API: <https://api-datasets.digitalghana.dev>
 
 ## Before implementation
 
