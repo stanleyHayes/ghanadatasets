@@ -1,0 +1,22 @@
+GhanaDataset Registry
+A Digital Ghana product — https://datasets.digitalghana.dev
+
+Copyright 2026 Digital Ghana contributors
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+Referenced source documents, official publications and third-party datasets
+retain their own rights, licences and access conditions. They are not
+relicensed, reassigned or made open merely by being referenced, indexed,
+described or linked to in this repository. This registry publishes descriptive
+metadata and official access paths only; it does not copy, mirror or
+redistribute source data. Anyone reusing a referenced dataset must obtain it
+from its publisher and comply with that publisher's own licence and access
+conditions, which are recorded per record and reviewed in
+docs/governance/source-register.json.
+
+GhanaDataset Registry is an independent open-source project. It is not operated
+by, affiliated with, or endorsed by the Government of Ghana or any of its
+agencies.
